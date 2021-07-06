@@ -18,7 +18,7 @@ p{
     padding-left: 5%;
 }
 .half-width img{
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100%;
 }
 .space{
@@ -51,26 +51,22 @@ p{
 /*-----third section------*/
 .recipie-item{
     width: 20%;
-    margin-left: 5%;
-    padding-left: 10%;
-    border-radius: 10px;
+    margin: 3%;
+    padding: 5%;
+    border:white 7px solid;
+    border-radius: 10%;
     box-shadow: 10px 10px 40px gray;
  }
- #firstrecipie{
-    padding-left: 50px;
-    border:white 7px solid;
-    border-radius: 50px;
+ .align img{
+    width: 100%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 5%;
  }
- #secondrecipie{
-    padding-left: 50px;
-    border:white 7px solid;
-    border-radius: 50px;
- }
- #thridrecipie{
-    padding-left: 50px;
-    border:white 7px solid;
-    border-radius: 50px;
- }
+.prepare{
+    padding-top: 100px;
+}
+
 
 
 /*-----footer start-----*/
