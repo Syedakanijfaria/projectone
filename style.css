@@ -3,6 +3,25 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
+.menu {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.menu a:hover {
+    background-color: gray;
+}
+
+
+
 .font{
     padding-top: 15%;
     font-size: 50px;
