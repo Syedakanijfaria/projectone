@@ -3,22 +3,20 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-p{
-    text-align: justify;
-    padding-top: 20px;
-    padding-right: 50px;
+h1{
+    padding-top: 15%;
 }
 .flexible-container{
     display: flex;
 }
 .half-width{
     width: 40%;
+    height: auto;
     float:left;
     margin-left: 5%;
-    padding-left: 5%;
+    padding: 5%; 
 }
 .half-width img{
-    padding-top: 30px;
     width: 100%;
 }
 .space{
@@ -38,35 +36,38 @@ p{
     background-size: cover;
 }
 .second-section{
-    background-image: url("image/Frame56.png");
+    background-image: url("image/Frame577.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .third-section{
-    margin-bottom: 80px;
+    margin-top: 50px;
     text-align-last: center;
 }
 
 
 /*-----third section------*/
-.recipie-item{
-    width: 20%;
-    margin: 3%;
-    padding: 5%;
-    border:white 7px solid;
-    border-radius: 10%;
-    box-shadow: 10px 10px 40px gray;
- }
- .align img{
-    width: 100%;
-    float:left;
-    margin-left: 5%;
-    padding-left: 5%;
- }
-.prepare{
-    padding-top: 100px;
-}
 
+.recipie-item{
+    float: left;
+    margin: 5%;
+    padding: 1%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5%;
+ }
+.description{
+    text-align: center;
+    padding: 20px;
+}
+.food{
+    border:white 1px solid; 
+    border-radius: 5%;
+}
+.food img{
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+}
 
 
 /*-----footer start-----*/
