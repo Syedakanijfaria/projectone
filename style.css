@@ -8,6 +8,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    background-color: white;
 }
 .half-width{
     width: 40%;
@@ -44,7 +45,11 @@ h1{
     margin-top: 50px;
     text-align-last: center;
 }
-
+.fourth-section{
+    margin-top: 50px;
+    text-align-last: center;
+    margin-bottom: 50px;
+}
 
 /*-----third section------*/
 
@@ -69,7 +74,22 @@ h1{
     height: auto;
 }
 
+/*-----4thsection------*/
 
+#flexbox {
+    width: 100%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5%;
+    column-count: 3;
+    column-gap: 100px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
 /*-----footer start-----*/
 footer{
     text-align: center;
