@@ -1,26 +1,22 @@
 body{
     color: black;
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-* {
-    box-sizing: border-box;
-}
-.menu {
-    background-color: cadetblue;
+.nav {
+    background-color: #EBF8FF;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
 }
-.menu a {
+.nav a {
     text-decoration: none;
-    padding: 20px;
-    color: white;
+    padding: 40px;
+    color: black;
 }
-.menu a:hover {
-    background-color: gray;
+.nav a:hover {
+    background-color: white;
 }
-
-
 
 .font{
     padding-top: 15%;
@@ -47,23 +43,23 @@ h2{
     padding-bottom: 30px;
 }
 #gap{
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 .acnhorbutton{
     text-decoration: none;
-    background-image: linear-gradient(lightsalmon, tomato);
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 15px 40px;
     border-radius: 50px;
     color: white;
     font-weight: 700;
 }
 .first-section{
-    background-image: url("image/Frame57.png");
+    background-image: url("image/Frame577.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .second-section{
-    background-image: url("image/Frame577.png");
+    background-image: url("image/Frame57.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
