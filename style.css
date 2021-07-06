@@ -4,6 +4,20 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.font{
+    padding-top: 15%;
+    font-size: 50px;
+}
+h2{
+    padding-top: 25%;
+}
+.flexible-container{
+    display: flex;
+    background-color: white;
+}
+
+
+/*-------navbar-------*/
 .nav {
     background-color: #EBF8FF;
     display: flex;
@@ -17,17 +31,14 @@ body{
 .nav a:hover {
     background-color: white;
 }
+/*-------navbar-------*/
 
-.font{
-    padding-top: 15%;
-    font-size: 50px;
+
+#gap{
+    padding-bottom: 100px;
 }
-h2{
-    padding-top: 25%;
-}
-.flexible-container{
-    display: flex;
-    background-color: white;
+.space{
+    padding-bottom: 30px;
 }
 .half-width{
     width: 40%;
@@ -39,12 +50,6 @@ h2{
 .half-width img{
     width: 100%;
 }
-.space{
-    padding-bottom: 30px;
-}
-#gap{
-    padding-bottom: 100px;
-}
 .acnhorbutton{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
@@ -53,28 +58,28 @@ h2{
     color: white;
     font-weight: 700;
 }
-.first-section{
+.intro{
     background-image: url("image/Frame577.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.second-section{
+.about{
     background-image: url("image/Frame57.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.third-section{
+.recipies{
     margin-top: 50px;
     text-align-last: center;
 }
-.fourth-section{
+.extra{
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-/*-----third section------*/
 
+/*-----third section------*/
 .recipie-item{
     float: left;
     margin: 5%;
@@ -96,8 +101,8 @@ h2{
     height: auto;
 }
 
-/*-----4thsection------*/
 
+/*-----4thsection------*/
 #flexbox {
     width: 100%;
     height: auto;
@@ -112,6 +117,7 @@ h2{
     column-gap: 10%;
   }
   
+
 /*-----footer start-----*/
 footer{
     text-align: center;
